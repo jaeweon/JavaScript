@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>코어 객체Date()</title>
+</head>
+<body>
+    <h3>방문 시간에 따라 변하는 배경</h3>
+    <hr>
+    
+</body>
+<script>
+    // 홀수 일 때 pink로 배경색 변경
+    // 짝수 일 때 orange로 배경색 변경
+    var now = new Date();
+    document.body.style.backgroundColor = now.getSeconds() % 2 == 0 ? "orange" : "pink"
+
+</script>
+</html>
