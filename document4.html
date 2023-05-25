@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 선택자를 이용한 선택</title>
+</head>
+<body>
+    <h1>CSS 선택자를 이용한 선택</h1>
+    <p>첫 번째 단락</p>
+    <ul>
+        <li class="odd">1</li>
+        <li class="even">2</li>
+        <li class="odd">3</li>
+        <li class="even">4</li>
+        <li class="odd">5</li>
+    </ul>
+</body>
+<script>
+        // const li_odd = document.querySelectorAll('li.odd')
+        // li_odd.forEach(function (li) {
+        //     li.style.color = 'red'
+        // })
+
+        // const li_even = document.querySelectorAll('li.even')
+        // li_even.forEach(function (li) {
+        //     li.style.color = 'blue'
+        // }) 
+        const liAll = document.querySelectorAll("li")
+        liAll.forEach(li => {li.style.color = li.getAttribute("class") == "odd" ? "red" : "blue"})
+</script>
+</html>
