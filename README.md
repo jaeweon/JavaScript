@@ -1,7 +1,7 @@
 # JavaScriptPrac
 개발환경 Node.js 개발 툴 : VS code
 ### 학습 목표
-카카오 맵 API 구현해보기
+카카오 맵 API 구현해보기,
 자바스크립트 기초부터 심화 까지 다시 복습하는 공간
 
 # JavaScript 공부
